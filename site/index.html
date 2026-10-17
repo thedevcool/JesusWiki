@@ -40,6 +40,9 @@ a{color:var(--accent)}
 .legend dt{font-weight:600}.legend dd{margin:0 0 8px;color:var(--mute)}
 pre{overflow-x:auto;background:var(--bg);border:1px solid var(--line);padding:12px;border-radius:6px;font-size:.82rem;line-height:1.45}
 .empty{color:var(--mute);padding:24px 0}
+#suggest label{display:block;margin:0 0 12px;font-weight:600}
+#suggest small{display:block;font-weight:400;color:var(--mute);font-size:.85rem}
+#suggest input,#suggest textarea,#suggest select{display:block;width:100%;margin-top:4px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit;font-size:.95rem}
 @media (max-width:680px){.cols{grid-template-columns:1fr}.col+.col{border-left:0;border-top:1px solid var(--line)}}
 </style>
 </head>
@@ -71,7 +74,15 @@ pre{overflow-x:auto;background:var(--bg);border:1px solid var(--line);padding:12
 
 <section class="contrib" id="contribute">
 <h2 style="margin-top:0">Add to the wiki</h2>
-<p>Anyone can propose an entry. The quickest way is to <a data-repo="/issues/new?template=new-entry.yml" href="#">fill in the entry form</a>. If you are comfortable with GitHub, add a JSON file to the <code>entries</code> folder and open a pull request. The <a data-repo="/blob/main/CONTRIBUTING.md" href="#">contributor guide</a> has the format and the rules.</p>
+<p>Anyone can propose an entry. Fill in the form below and it opens a pre-filled suggestion on GitHub for you to review and submit (you need a free GitHub account). If you are comfortable with GitHub, add a JSON file to the <code>entries</code> folder and open a pull request. The <a data-repo="/blob/main/CONTRIBUTING.md" href="#">contributor guide</a> has the format and the rules.</p>
+<form id="suggest">
+<label>Claim <small>One plain sentence.</small><input name="claim" required></label>
+<label>Bible passages <small>One per line, like “Mark 15:1-15: Jesus is handed to Pilate”.</small><textarea name="bible" rows="3" required></textarea></label>
+<label>Outside source <small>Author, work, approximate date, what it says in your own words, and a link to a translation or scholarship.</small><textarea name="outside" rows="4" required></textarea></label>
+<label>How strong do you think this is?<select name="strength" required><option>Widely agreed</option><option>Probable</option><option selected>Debated</option><option>Weak</option></select></label>
+<label>Strongest objection <small>State the best case against it, fairly.</small><textarea name="counter" rows="3" required></textarea></label>
+<button type="submit" class="chip">Open on GitHub</button>
+</form>
 <p>Ground rules: cite a real, checkable source. Summarize in your own words rather than pasting long passages. Say when a source was hostile to Christians, since that strengthens it. Say when a source may have been edited later or depends on Christian reports. Every entry includes the strongest objection. Entries that overclaim are graded down, not deleted.</p>
 <p><a data-repo="" href="#">View the project on GitHub</a></p>
 </section>
@@ -110,6 +121,13 @@ document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{
 fetch("entries.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{ENTRIES=d;render()}).catch(()=>{
  listEl.innerHTML='<p class="empty">Entries could not load. If you opened this file directly, serve the folder with a local web server (for example: npx serve dist).</p>'});
 document.querySelectorAll("[data-repo]").forEach(a=>a.href=REPO+a.dataset.repo);
+// GitHub issue forms pre-fill fields from query parameters named by field id.
+document.getElementById("suggest").addEventListener("submit",ev=>{
+ ev.preventDefault();
+ const f=new FormData(ev.target),p=new URLSearchParams({template:"new-entry.yml",title:"Entry: "+f.get("claim").trim()});
+ for(const k of ["claim","bible","outside","strength","counter"])p.set(k,f.get(k).trim());
+ window.open(REPO+"/issues/new?"+p,"_blank","noopener");
+});
 </script>
 </body>
 </html>

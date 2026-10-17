@@ -4,7 +4,7 @@
   "bible": [
     {
       "ref": "Mark 6:14-29",
-      "note": "Herod has John beheaded after a banquet."
+      "note": "Herod has John beheaded after a banquet, at the urging of Herodias."
     },
     {
       "ref": "Matthew 3:1-6",
@@ -15,9 +15,9 @@
     {
       "source": "Josephus, Antiquities 18.116 to 119",
       "date": "c. 93 AD",
-      "note": "Describes John as a good man who urged people to live justly and be baptized, and says Herod had him killed at Machaerus.",
-      "link": ""
+      "note": "Calls John 'the Baptist', a good man who urged Jews to live justly and be baptized. Herod feared John’s influence might lead to an uprising, so he sent him in chains to the fortress of Machaerus and had him put to death. Some Jews saw Herod’s later military defeat as God’s punishment for it. Few scholars doubt this passage.",
+      "link": "https://lexundria.com/j_aj/18.116-18.119/wst"
     }
   ],
-  "counter": "The reason for the execution differs. Josephus gives a political motive (fear of unrest) while the Gospels point to Herod’s marriage. Both can be true, but the difference should be stated."
+  "counter": "The reason for the execution differs. Josephus gives a political motive (fear of unrest) while the Gospels point to John’s criticism of Herod’s marriage to Herodias. Both can be true, but the difference should be stated. Josephus does not connect John with Jesus at all."
 }

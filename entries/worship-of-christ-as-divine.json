@@ -1,10 +1,10 @@
 {
-  "claim": "Within about 80 years, Christians were worshipping Christ as divine.",
+  "claim": "By the early 100s, Christians were worshipping Christ as divine.",
   "strength": "strong",
   "bible": [
     {
       "ref": "Philippians 2:5-11",
-      "note": "An early hymn-like passage honoring Christ."
+      "note": "An early hymn-like passage honoring Christ, in a letter from the 50s AD, so the belief inside the movement is older than the outside reports."
     },
     {
       "ref": "John 1:1-18",
@@ -14,10 +14,16 @@
   "outside": [
     {
       "source": "Pliny the Younger, Letter 10.96 to Trajan",
-      "date": "c. 112 AD",
-      "note": "A Roman governor reports that Christians meet before dawn and sing a hymn to Christ as to a god.",
-      "link": ""
+      "date": "c. 111 to 112 AD",
+      "note": "A Roman governor in northern Turkey asks the emperor how to handle Christians. From questioning former Christians, and torturing two female slaves called deaconesses, he learned that they met before dawn on a fixed day and sang a hymn to Christ 'as to a god', and swore to avoid theft, adultery and fraud. Trajan’s reply (10.97) survives too.",
+      "link": "https://www.yorku.ca/pswarney/Texts/pliny-10-96-97.htm"
+    },
+    {
+      "source": "Lucian of Samosata, The Passing of Peregrinus 11 to 13",
+      "date": "c. 165 AD",
+      "note": "A Greek satirist mocks Christians as gullible. He says they worship 'that crucified sophist', the man crucified in Palestine for starting their new cult, live by his laws, and regard each other as brothers.",
+      "link": "https://topostext.org/work/341"
     }
   ],
-  "counter": "This shows what early Christians believed, not that the belief was true."
+  "counter": "This shows what early Christians believed, not that the belief was true. Pliny’s information came from people under interrogation, and Lucian, writing over a century after Jesus, was probably passing on what Christians themselves said rather than independent knowledge."
 }

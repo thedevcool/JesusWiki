@@ -13,11 +13,11 @@
   ],
   "outside": [
     {
-      "source": "Thallus, as quoted by Julius Africanus",
+      "source": "Thallus, as quoted by Julius Africanus, Chronography fragment 18",
       "date": "c. 221 AD (quoting a lost earlier work)",
-      "note": "Africanus says Thallus explained a darkness as an eclipse. Thallus’s own text is lost, and we do not know that he mentioned Jesus.",
-      "link": ""
+      "note": "Africanus says Thallus explained a darkness as an eclipse of the sun, and Africanus calls this unreasonable. Africanus’s own book is also lost; this fragment survives only in a Byzantine writer, George Syncellus. We do not know when Thallus wrote, or that he mentioned Jesus.",
+      "link": "https://ccel.org/ccel/juliusafricanus/extant_fragments"
     }
   ],
-  "counter": "The source is lost and second hand. An eclipse at Passover full moon is not possible, which Africanus himself raised. Listed here as an example of a claim not to overstate."
+  "counter": "The source is lost and reaches us third hand. Africanus himself pointed out that a solar eclipse cannot happen at the Passover full moon. Later writers also cite Phlegon’s record of an eclipse and earthquake, but that too survives only in Christian quotations and may be a different event. Listed here as an example of a claim not to overstate."
 }

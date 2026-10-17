@@ -1,0 +1,33 @@
+{
+  "claim": "Jesus’s tomb was found empty.",
+  "strength": "debated",
+  "bible": [
+    {
+      "ref": "Mark 16:1-8",
+      "note": "Women come to anoint the body and find the tomb open and empty. Probably the earliest Gospel account."
+    },
+    {
+      "ref": "Matthew 28:11-15",
+      "note": "Says the guards were paid to claim the disciples stole the body, and that this story was still told 'to this day'."
+    },
+    {
+      "ref": "1 Corinthians 15:4",
+      "note": "Says Jesus was buried and raised, but does not mention a tomb or its being empty."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Justin Martyr, Dialogue with Trypho 108",
+      "date": "c. 155 to 160 AD",
+      "note": "A Christian writer says Jewish opponents taught that the disciples stole the body from the tomb by night and then claimed he had risen. If accurate, opponents explained the empty tomb rather than denying it.",
+      "link": "https://logoslibrary.org/justin/trypho/108.html"
+    },
+    {
+      "source": "The Nazareth Inscription",
+      "date": "1st century BC or 1st century AD (uncertain)",
+      "note": "A marble slab with an emperor’s decree making it a capital crime to move bodies or disturb tombs. Some have linked it to Christian claims about Jesus’s tomb, but its date, the emperor, and even whether it came from Nazareth are all uncertain.",
+      "link": "https://en.wikipedia.org/wiki/Nazareth_Inscription"
+    }
+  ],
+  "counter": "There is no early non-Christian source for the empty tomb. Justin is a Christian reporting his opponents’ view a century later, and Matthew’s guard story may itself be a response to an existing argument. Paul never mentions the tomb. The Nazareth Inscription does not mention Jesus, and a recent study of the marble tied it to a different event. Scholars who accept the empty tomb point to the women as first witnesses (unlikely to be invented in that culture) and to the opponents’ reply; others see it as a later story."
+}

@@ -1,0 +1,35 @@
+{
+  "claim": "Followers of Christ were present in Rome by the middle of the first century and were punished under Nero.",
+  "strength": "strong",
+  "bible": [
+    {
+      "ref": "Acts 18:2",
+      "note": "Aquila and Priscilla had recently left Italy because Claudius ordered all Jews to leave Rome."
+    },
+    {
+      "ref": "Romans 1:7-8",
+      "note": "Paul writes to an established church in Rome in the late 50s AD."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Suetonius, Life of Nero 16",
+      "date": "c. 121 AD",
+      "note": "In a list of Nero’s public measures, a Roman biographer says punishment was inflicted on the Christians, 'a class of men given to a new and mischievous superstition'.",
+      "link": "https://en.wikipedia.org/wiki/Suetonius_on_Christians"
+    },
+    {
+      "source": "Suetonius, Life of Claudius 25.4",
+      "date": "c. 121 AD (describing events of about 49 AD)",
+      "note": "Says Claudius expelled from Rome the Jews who were constantly causing disturbances 'at the instigation of Chrestus'. Many scholars think this garbles disputes over Christ among Rome’s Jews, which would match Acts 18:2.",
+      "link": "https://en.wikipedia.org/wiki/Suetonius_on_Christians"
+    },
+    {
+      "source": "Tacitus, Annals 15.44",
+      "date": "c. 116 AD",
+      "note": "Independently describes Nero blaming and executing Christians after the fire of Rome in AD 64.",
+      "link": "https://en.wikipedia.org/wiki/Tacitus_on_Jesus"
+    }
+  ],
+  "counter": "Neither Suetonius passage says anything about Jesus himself. 'Chrestus' was a common slave name, and some scholars think it refers to an otherwise unknown agitator in Rome, so the Claudius passage is debated even though the Nero passage is not. Suetonius also suggests Chrestus was present in Rome, which Jesus was not."
+}

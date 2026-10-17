@@ -1,0 +1,23 @@
+{
+  "claim": "Within a few years of the crucifixion, Jesus’s followers were claiming he had appeared to them alive after his death.",
+  "strength": "probable",
+  "bible": [
+    {
+      "ref": "1 Corinthians 15:3-8",
+      "note": "Paul passes on a formula he says he 'received': Christ died, was buried, was raised on the third day, and appeared to Peter, the Twelve, more than five hundred people at once, and James. Paul adds himself at the end."
+    },
+    {
+      "ref": "Galatians 1:18-19",
+      "note": "Paul says he visited Peter and James in Jerusalem three years after his conversion, a likely occasion for receiving the formula."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Tacitus, Annals 15.44",
+      "date": "c. 116 AD",
+      "note": "Says the movement was checked for a moment by the execution, then broke out again, first in Judea and then in Rome. It confirms the movement revived after Jesus’s death, but says nothing about why.",
+      "link": "https://en.wikipedia.org/wiki/Tacitus_on_Jesus"
+    }
+  ],
+  "counter": "The key evidence is inside the Bible. Scholars across the spectrum, including skeptics such as Gerd Lüdemann and Bart Ehrman, date the formula to within a few years of the crucifixion because 1 Corinthians is an undisputed letter of Paul from the 50s AD and Paul says he received the tradition. No outside source independently reports the appearances. An early date shows what the first followers believed, not what caused that belief; explanations range from real appearances to visions or grief experiences."
+}

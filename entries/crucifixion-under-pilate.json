@@ -19,21 +19,21 @@
     {
       "source": "Tacitus, Annals 15.44",
       "date": "c. 116 AD",
-      "note": "A Roman historian, no friend of Christians, says Christ was executed under Tiberius by the procurator Pontius Pilate.",
-      "link": ""
+      "note": "A Roman historian, openly hostile to Christians, explains the name 'Christians' while describing Nero's punishments after the fire of AD 64. He says Christus suffered the extreme penalty under Tiberius at the hands of the procurator Pontius Pilate. Most scholars accept the passage as authentic.",
+      "link": "https://en.wikipedia.org/wiki/Tacitus_on_Jesus"
     },
     {
-      "source": "Josephus, Antiquities 18.63 to 64",
+      "source": "Josephus, Antiquities 18.63 to 64 (the Testimonium Flavianum)",
       "date": "c. 93 AD",
-      "note": "Says Pilate condemned Jesus to the cross. The passage was likely expanded by later Christian copyists, but most scholars think a core statement is original.",
-      "link": ""
+      "note": "Says that Pilate, on the accusation of leading Jewish men, condemned Jesus to the cross. As it stands, the passage contains lines no non-Christian Jew would write (such as 'he was the Christ'), so it was almost certainly expanded by Christian copyists. Most scholars think a shorter original core, including the crucifixion under Pilate, goes back to Josephus.",
+      "link": "https://lexundria.com/j_aj/18.63-18.64/wst"
     },
     {
-      "source": "The Pilate Stone, Caesarea",
-      "date": "1st century",
-      "note": "An inscription found in 1961 confirming Pilate was a real Roman governor of Judea. It does not mention Jesus.",
-      "link": ""
+      "source": "The Pilate Stone, Caesarea Maritima",
+      "date": "c. 26 to 36 AD",
+      "note": "A limestone block found in 1961, now in the Israel Museum, naming Pontius Pilate as prefect of Judea in connection with a building honoring Tiberius. It confirms Pilate was a real governor of Judea at the right time. It does not mention Jesus.",
+      "link": "https://en.wikipedia.org/wiki/Pilate_stone"
     }
   ],
-  "counter": "Tacitus may be passing on what Christians told him rather than independent records. Josephus has a known editing problem. The strength comes from several unrelated sources agreeing, including hostile ones."
+  "counter": "Tacitus may be repeating what Christians of his day said rather than consulting official records. He calls Pilate 'procurator', a title used in his own time, while the Pilate Stone shows Pilate's actual title was 'prefect', so he was probably not reading a document from Pilate's era. Josephus has a known editing problem. The case rests on several unrelated sources agreeing, including hostile ones, not on any single source."
 }

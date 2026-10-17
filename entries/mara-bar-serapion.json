@@ -1,0 +1,23 @@
+{
+  "claim": "A non-Christian writer referred to the execution of a 'wise king' of the Jews.",
+  "strength": "debated",
+  "bible": [
+    {
+      "ref": "Mark 15:26",
+      "note": "The charge posted on the cross reads 'The King of the Jews'."
+    },
+    {
+      "ref": "John 19:19-22",
+      "note": "Pilate’s sign, 'Jesus of Nazareth, the King of the Jews', and the dispute over its wording."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Letter of Mara bar Serapion to his son (Syriac)",
+      "date": "probably soon after 73 AD; some date it to the 2nd or 3rd century",
+      "note": "A Stoic-minded prisoner urges his son to pursue wisdom. He compares the deaths of Socrates and Pythagoras with the Jews’ killing of their 'wise king', and says their kingdom was taken away from them afterward, but the king lives on in the laws he gave.",
+      "link": "https://www.earlychristianwritings.com/mara.html"
+    }
+  ],
+  "counter": "The letter never names Jesus, and its date is uncertain. It blames the Jews rather than the Romans, and the 'wise king' could be a general image rather than a specific person. Some scholars have suggested it might be a school exercise or even a Christian composition. If it does mean Jesus, it is probably passing on what Christians said."
+}

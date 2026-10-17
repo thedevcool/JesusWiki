@@ -18,11 +18,13 @@ node scripts/build.mjs
 npx serve dist
 ```
 
+Live site: https://thedevcool.github.io/JesusWiki/
+
 ## Publish your own copy
 
 1. Create a repository named `jesuswiki` on GitHub and push this folder to it.
 2. In the repository, go to Settings, then Pages, and set the source to **GitHub Actions**.
-3. In `site/index.html`, replace `YOUR-USERNAME` in the `REPO` line with your GitHub username.
+3. In `site/index.html`, change the `REPO` line to point at your repository.
 4. Push to `main`. The site appears at `https://YOUR-USERNAME.github.io/jesuswiki/`.
 
 ## Contribute

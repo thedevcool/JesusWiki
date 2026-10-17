@@ -1,0 +1,23 @@
+{
+  "claim": "Jesus was executed on the eve of Passover.",
+  "strength": "debated",
+  "bible": [
+    {
+      "ref": "John 19:14, 19:31",
+      "note": "John places the crucifixion on the day of Preparation for the Passover, the day before the festival."
+    },
+    {
+      "ref": "Mark 14:12-16",
+      "note": "Mark’s Last Supper is a Passover meal, which would put the crucifixion on Passover day itself, a known difference between John and the other Gospels."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Babylonian Talmud, Sanhedrin 43a",
+      "date": "compiled c. 500 AD; the tradition (a baraita) is probably 2nd century or earlier",
+      "note": "Says that on the eve of Passover 'Yeshu' was hanged. A herald had gone out for forty days announcing he would be stoned for sorcery and leading Israel astray, and no one came forward to defend him. Some manuscripts add 'the Nazarene'. Older printed editions removed the passage under Christian censorship.",
+      "link": "https://earlychristianwritings.com/talmud.html"
+    }
+  ],
+  "counter": "The Talmud was written down centuries later and the passage may be reacting to Christian claims rather than preserving independent memory. Its details (forty days of herald, stoning, a Jewish court) do not match the Gospels’ Roman crucifixion, and 'hanged' may mean the body was displayed after stoning. Scholars disagree whether every 'Yeshu' in the Talmud is Jesus. The timing agrees with John, not with Mark."
+}

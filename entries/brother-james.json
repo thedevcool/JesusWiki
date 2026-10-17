@@ -13,11 +13,11 @@
   ],
   "outside": [
     {
-      "source": "Josephus, Antiquities 20.200",
-      "date": "c. 93 AD",
-      "note": "Describes the stoning of James, the brother of Jesus who was called Christ. Far fewer scholars doubt this passage than the longer one in book 18.",
-      "link": ""
+      "source": "Josephus, Antiquities 20.197 to 200",
+      "date": "c. 93 AD (describing events of about 62 AD)",
+      "note": "While the new Roman governor was still on his way, the high priest Ananus convened the Sanhedrin and had 'the brother of Jesus who was called Christ, whose name was James' and some others stoned. The mention is passing and plain, which is one reason most scholars think it is genuine, unlike the longer passage in book 18.",
+      "link": "https://lexundria.com/j_aj/20.197-20.200/wst"
     }
   ],
-  "counter": "A few scholars suggest a Christian scribe added the phrase, but it is a minority view."
+  "counter": "A minority of scholars argue that 'who was called Christ' was added later, and that the James in the story was the brother of Jesus son of Damneus, a man named a few lines later who became high priest (Richard Carrier, Journal of Early Christian Studies, 2012). Most specialists still regard the phrase as original. On the Christian side, some traditions read 'brother' as cousin or step-brother; the sources themselves do not settle that question."
 }
