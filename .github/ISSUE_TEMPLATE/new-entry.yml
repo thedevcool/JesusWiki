@@ -1,0 +1,35 @@
+name: Suggest an entry
+description: Propose a claim about Jesus, with the Bible passage and an outside source.
+title: "Entry: "
+labels: ["new-entry"]
+body:
+  - type: input
+    id: claim
+    attributes:
+      label: Claim
+      description: One plain sentence.
+    validations: { required: true }
+  - type: textarea
+    id: bible
+    attributes:
+      label: Bible passages
+      description: One per line, like "Mark 15:1-15: Jesus is handed to Pilate".
+    validations: { required: true }
+  - type: textarea
+    id: outside
+    attributes:
+      label: Outside source
+      description: Author, work, approximate date, what it says in your own words, and a link to a translation or scholarship.
+    validations: { required: true }
+  - type: dropdown
+    id: strength
+    attributes:
+      label: How strong do you think this is?
+      options: [Widely agreed, Probable, Debated, Weak]
+    validations: { required: true }
+  - type: textarea
+    id: counter
+    attributes:
+      label: Strongest objection
+      description: State the best case against it, fairly.
+    validations: { required: true }

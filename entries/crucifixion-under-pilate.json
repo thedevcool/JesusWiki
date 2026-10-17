@@ -1,0 +1,39 @@
+{
+  "claim": "Jesus was crucified under Pontius Pilate.",
+  "strength": "strong",
+  "bible": [
+    {
+      "ref": "Mark 15:1-15",
+      "note": "Jesus is handed to Pilate, who orders the crucifixion."
+    },
+    {
+      "ref": "John 18:28 to 19:16",
+      "note": "A longer account of the trial before Pilate."
+    },
+    {
+      "ref": "1 Timothy 6:13",
+      "note": "Pilate is named in an early creed-like statement."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Tacitus, Annals 15.44",
+      "date": "c. 116 AD",
+      "note": "A Roman historian, no friend of Christians, says Christ was executed under Tiberius by the procurator Pontius Pilate.",
+      "link": ""
+    },
+    {
+      "source": "Josephus, Antiquities 18.63 to 64",
+      "date": "c. 93 AD",
+      "note": "Says Pilate condemned Jesus to the cross. The passage was likely expanded by later Christian copyists, but most scholars think a core statement is original.",
+      "link": ""
+    },
+    {
+      "source": "The Pilate Stone, Caesarea",
+      "date": "1st century",
+      "note": "An inscription found in 1961 confirming Pilate was a real Roman governor of Judea. It does not mention Jesus.",
+      "link": ""
+    }
+  ],
+  "counter": "Tacitus may be passing on what Christians told him rather than independent records. Josephus has a known editing problem. The strength comes from several unrelated sources agreeing, including hostile ones."
+}

@@ -1,0 +1,23 @@
+{
+  "claim": "Darkness covered the land at the crucifixion.",
+  "strength": "weak",
+  "bible": [
+    {
+      "ref": "Mark 15:33",
+      "note": "Darkness from noon until three in the afternoon."
+    },
+    {
+      "ref": "Luke 23:44-45",
+      "note": "Repeats the darkness and adds the sun failing."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Thallus, as quoted by Julius Africanus",
+      "date": "c. 221 AD (quoting a lost earlier work)",
+      "note": "Africanus says Thallus explained a darkness as an eclipse. Thallus’s own text is lost, and we do not know that he mentioned Jesus.",
+      "link": ""
+    }
+  ],
+  "counter": "The source is lost and second hand. An eclipse at Passover full moon is not possible, which Africanus himself raised. Listed here as an example of a claim not to overstate."
+}

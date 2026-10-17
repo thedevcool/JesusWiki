@@ -1,0 +1,23 @@
+{
+  "claim": "Within about 80 years, Christians were worshipping Christ as divine.",
+  "strength": "strong",
+  "bible": [
+    {
+      "ref": "Philippians 2:5-11",
+      "note": "An early hymn-like passage honoring Christ."
+    },
+    {
+      "ref": "John 1:1-18",
+      "note": "Opens by describing Christ in divine terms."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Pliny the Younger, Letter 10.96 to Trajan",
+      "date": "c. 112 AD",
+      "note": "A Roman governor reports that Christians meet before dawn and sing a hymn to Christ as to a god.",
+      "link": ""
+    }
+  ],
+  "counter": "This shows what early Christians believed, not that the belief was true."
+}

@@ -1,0 +1,23 @@
+{
+  "claim": "Jesus had a brother named James.",
+  "strength": "strong",
+  "bible": [
+    {
+      "ref": "Mark 6:3",
+      "note": "Neighbors name James among Jesus’s brothers."
+    },
+    {
+      "ref": "Galatians 1:19",
+      "note": "Paul says he met James, the Lord’s brother."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Josephus, Antiquities 20.200",
+      "date": "c. 93 AD",
+      "note": "Describes the stoning of James, the brother of Jesus who was called Christ. Far fewer scholars doubt this passage than the longer one in book 18.",
+      "link": ""
+    }
+  ],
+  "counter": "A few scholars suggest a Christian scribe added the phrase, but it is a minority view."
+}

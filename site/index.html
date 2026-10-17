@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JesusWiki: what the Bible says, and who outside it agrees</title>
+<meta name="description" content="An open source wiki that sets biblical accounts of Jesus beside independent outside sources, with every claim graded by strength.">
+<style>
+:root{--bg:#f6f6f2;--ink:#1d2433;--mute:#5d6678;--line:#d9dbd3;--card:#fff;--accent:#27478a;
+--s-strong:#2f7a4d;--s-probable:#27478a;--s-debated:#b0741a;--s-weak:#9a3b3b}
+@media (prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#141821;--ink:#e8eaf0;--mute:#9aa3b5;--line:#2c3342;--card:#1b2030;--accent:#8fb0f0;
+--s-strong:#6cc08c;--s-probable:#8fb0f0;--s-debated:#e0a64a;--s-weak:#e08a8a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Iowan Old Style",Palatino,Georgia,serif}
+.wrap{max-width:980px;margin:0 auto;padding:24px 18px 64px}
+h1{font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.15;margin:.6em 0 .3em;letter-spacing:-.01em}
+.lede{color:var(--mute);max-width:60ch;margin:0 0 1.4em}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 20px}
+input[type=search]{flex:1 1 240px;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);font:inherit}
+.chip{padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--ink);font:inherit;font-size:.9rem;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+article{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--c);border-radius:6px;margin:0 0 16px}
+article summary{list-style:none;cursor:pointer;padding:16px 18px}
+article summary::-webkit-details-marker{display:none}
+.claim{font-size:1.2rem;font-weight:600;line-height:1.3}
+.meta{color:var(--mute);font-size:.9rem;margin-top:4px}
+.badge{color:var(--c);font-weight:600}
+.cols{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}
+.col{padding:16px 18px}
+.col+.col{border-left:1px solid var(--line)}
+.col h3{margin:0 0 8px;font-size:1rem;color:var(--mute);font-weight:600}
+.src{margin:0 0 14px}
+.src b{display:block}
+.src small{color:var(--mute)}
+.note{padding:14px 18px;border-top:1px solid var(--line);font-size:.97rem}
+.note b{color:var(--mute)}
+a{color:var(--accent)}
+.legend,.contrib{border:1px solid var(--line);border-radius:6px;padding:16px 18px;margin:28px 0;background:var(--card)}
+.legend dt{font-weight:600}.legend dd{margin:0 0 8px;color:var(--mute)}
+pre{overflow-x:auto;background:var(--bg);border:1px solid var(--line);padding:12px;border-radius:6px;font-size:.82rem;line-height:1.45}
+.empty{color:var(--mute);padding:24px 0}
+@media (max-width:680px){.cols{grid-template-columns:1fr}.col+.col{border-left:0;border-top:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>JesusWiki</h1>
+<p class="lede">What the Bible records about Jesus, set beside sources written outside the Bible. Each claim is graded by how strong the evidence is, and counterarguments are part of the entry. Anyone can contribute.</p>
+
+<div class="tools">
+<input type="search" id="q" placeholder="Search claims, sources, verses" aria-label="Search entries">
+<button class="chip" data-s="all" aria-pressed="true">All</button>
+<button class="chip" data-s="strong" aria-pressed="false">Widely agreed</button>
+<button class="chip" data-s="probable" aria-pressed="false">Probable</button>
+<button class="chip" data-s="debated" aria-pressed="false">Debated</button>
+<button class="chip" data-s="weak" aria-pressed="false">Weak</button>
+</div>
+
+<div id="list"></div>
+
+<section class="legend">
+<h2 style="margin-top:0">How claims are graded</h2>
+<dl style="margin:0">
+<dt style="color:var(--s-strong)">Widely agreed</dt><dd>Independent sources, and most historians accept it, including non-Christian scholars.</dd>
+<dt style="color:var(--s-probable)">Probable</dt><dd>Good evidence from at least one outside source, with some open questions.</dd>
+<dt style="color:var(--s-debated)">Debated</dt><dd>Scholars disagree about the source or what it shows.</dd>
+<dt style="color:var(--s-weak)">Weak</dt><dd>The source is lost, late, or does not actually mention Jesus. Kept here so nobody overclaims it.</dd>
+</dl>
+</section>
+
+<section class="contrib" id="contribute">
+<h2 style="margin-top:0">Add to the wiki</h2>
+<p>Anyone can propose an entry. The quickest way is to <a data-repo="/issues/new?template=new-entry.yml" href="#">fill in the entry form</a>. If you are comfortable with GitHub, add a JSON file to the <code>entries</code> folder and open a pull request. The <a data-repo="/blob/main/CONTRIBUTING.md" href="#">contributor guide</a> has the format and the rules.</p>
+<p>Ground rules: cite a real, checkable source. Summarize in your own words rather than pasting long passages. Say when a source was hostile to Christians, since that strengthens it. Say when a source may have been edited later or depends on Christian reports. Every entry includes the strongest objection. Entries that overclaim are graded down, not deleted.</p>
+<p><a data-repo="" href="#">View the project on GitHub</a></p>
+</section>
+</div>
+
+<script>
+const COLORS={strong:"var(--s-strong)",probable:"var(--s-probable)",debated:"var(--s-debated)",weak:"var(--s-weak)"};
+const LABELS={strong:"Widely agreed",probable:"Probable",debated:"Debated",weak:"Weak"};
+
+let ENTRIES=[];
+const REPO="https://github.com/thedevcool/JesusWiki";
+
+const listEl=document.getElementById("list"),q=document.getElementById("q");
+let filter="all";
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeLink=u=>/^https?:\/\//i.test(u||"")?u:"";
+
+function render(){
+ const t=q.value.trim().toLowerCase();
+ const rows=ENTRIES.filter(e=>(filter==="all"||e.strength===filter)&&(!t||JSON.stringify(e).toLowerCase().includes(t)));
+ if(!rows.length){listEl.innerHTML='<p class="empty">No entries match. Add one using the steps under “Add to the wiki”.</p>';return}
+ listEl.innerHTML=rows.map(e=>{
+  const b=e.bible.map(x=>`<div class="src"><b>${esc(x.ref)}</b>${esc(x.note)}</div>`).join("");
+  const o=e.outside.map(x=>{const l=safeLink(x.link);return `<div class="src"><b>${esc(x.source)}</b><small>${esc(x.date)}</small><br>${esc(x.note)}${l?` <a href="${esc(l)}" rel="noopener nofollow">Read the source</a>`:""}</div>`}).join("");
+  return `<article style="--c:${COLORS[e.strength]}"><details><summary><div class="claim">${esc(e.claim)}</div>
+  <div class="meta"><span class="badge">${LABELS[e.strength]}</span> &middot; ${e.bible.length} biblical ${e.bible.length===1?"passage":"passages"}, ${e.outside.length} outside ${e.outside.length===1?"source":"sources"}</div></summary>
+  <div class="cols"><div class="col"><h3>The Bible says</h3>${b}</div><div class="col"><h3>Outside the Bible</h3>${o}</div></div>
+  <div class="note"><b>Strongest objection.</b> ${esc(e.counter)}</div></details></article>`}).join("");
+}
+q.addEventListener("input",render);
+document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{
+ filter=c.dataset.s;
+ document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===c));
+ render();
+}));
+fetch("entries.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{ENTRIES=d;render()}).catch(()=>{
+ listEl.innerHTML='<p class="empty">Entries could not load. If you opened this file directly, serve the folder with a local web server (for example: npx serve dist).</p>'});
+document.querySelectorAll("[data-repo]").forEach(a=>a.href=REPO+a.dataset.repo);
+</script>
+</body>
+</html>

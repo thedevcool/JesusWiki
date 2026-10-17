@@ -1,0 +1,23 @@
+{
+  "claim": "John the Baptist was a real figure, executed by Herod Antipas.",
+  "strength": "strong",
+  "bible": [
+    {
+      "ref": "Mark 6:14-29",
+      "note": "Herod has John beheaded after a banquet."
+    },
+    {
+      "ref": "Matthew 3:1-6",
+      "note": "John preaches and baptizes in the Jordan region."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Josephus, Antiquities 18.116 to 119",
+      "date": "c. 93 AD",
+      "note": "Describes John as a good man who urged people to live justly and be baptized, and says Herod had him killed at Machaerus.",
+      "link": ""
+    }
+  ],
+  "counter": "The reason for the execution differs. Josephus gives a political motive (fear of unrest) while the Gospels point to Herod’s marriage. Both can be true, but the difference should be stated."
+}
