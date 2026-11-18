@@ -1,0 +1,33 @@
+{
+  "claim": "Caiaphas was the Jewish high priest when Jesus was tried.",
+  "strength": "strong",
+  "bible": [
+    {
+      "ref": "Matthew 26:57",
+      "note": "Jesus is taken to Caiaphas the high priest, where the council has gathered."
+    },
+    {
+      "ref": "John 18:13-14, 18:24",
+      "note": "Jesus is first questioned by Annas, father-in-law of Caiaphas, then sent to Caiaphas, the high priest that year."
+    },
+    {
+      "ref": "Luke 3:2",
+      "note": "Dates John the Baptist's preaching to the high priesthood of Annas and Caiaphas."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Josephus, Antiquities 18.35 and 18.95",
+      "date": "c. 93 AD",
+      "note": "Says the governor Valerius Gratus made 'Joseph Caiaphas' high priest, and that the Syrian governor Vitellius later removed 'Joseph, who was also called Caiaphas'. Together this puts his term at roughly AD 18 to 36, covering the whole of Pilate's governorship (AD 26 to 36). Josephus also names Annas (Ananus) as an earlier high priest whose family held the office.",
+      "link": "https://lexundria.com/j_aj/18.26-18.38/wst"
+    },
+    {
+      "source": "The Caiaphas ossuary, Jerusalem",
+      "date": "1st century AD (found 1990)",
+      "note": "An ornate limestone bone box found in a family tomb in south Jerusalem, inscribed twice with a name read as 'Joseph son of Caiaphas'. It held the bones of a man of about sixty. It is now in the Israel Museum.",
+      "link": "https://www.historymuseum.ca/cmc/exhibitions/civil/israel/isrel581e.html"
+    }
+  ],
+  "counter": "Some scholars doubt the ossuary belonged to the high priest: the spelling of the name is uncertain, and 'Caiaphas' may be a family nickname shared by several men. Even without the ossuary, Josephus independently confirms the name, the office and the dates. This confirms the setting of the trial, not what was said at it."
+}

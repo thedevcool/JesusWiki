@@ -1,0 +1,29 @@
+{
+  "claim": "Pontius Pilate was a harsh governor who repeatedly clashed with the Jewish population.",
+  "strength": "strong",
+  "bible": [
+    {
+      "ref": "Luke 13:1",
+      "note": "Mentions Galileans 'whose blood Pilate had mingled with their sacrifices', an incident not recorded elsewhere."
+    },
+    {
+      "ref": "Mark 15:6-15",
+      "note": "Pilate hands Jesus over to be crucified to satisfy the crowd, after appearing reluctant."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Philo of Alexandria, Embassy to Gaius 299 to 305",
+      "date": "c. AD 41",
+      "note": "A Jewish writer who lived at the same time as Pilate. He tells how Pilate set up gilded shields in Herod's palace in Jerusalem to annoy the people, and describes him as stubborn and cruel, accused of bribery, violence and executions without trial.",
+      "link": "https://cts.perseids.org/read/greekLit/tlg0018/tlg031/1st1K-eng1/302-305"
+    },
+    {
+      "source": "Josephus, Jewish War 2.169 to 177 and Antiquities 18.55 to 62",
+      "date": "c. 75 and 93 AD",
+      "note": "Describes Pilate bringing military standards with the emperor's image into Jerusalem by night, then backing down after mass protest; and using Temple money to build an aqueduct, after which his soldiers beat and killed protesters. Josephus also says Pilate was later recalled to Rome after a violent attack on Samaritans.",
+      "link": "https://livius.org/articles/person/pontius-pilate/pontius-pilate-4"
+    }
+  ],
+  "counter": "Philo and Josephus were both writing Jewish accounts hostile to Pilate, and Philo in particular exaggerates for effect. The Gospels' Pilate seems reluctant and even fair-minded at the trial, which sits awkwardly with this picture; some scholars see the Gospels softening Roman guilt, others think Pilate was simply being shrewd with the crowd. Some scholars think Philo's shields and Josephus's standards may be two versions of one incident."
+}

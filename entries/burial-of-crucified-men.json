@@ -1,0 +1,29 @@
+{
+  "claim": "A man crucified in Roman Judea could be taken down and buried in a family tomb.",
+  "strength": "probable",
+  "bible": [
+    {
+      "ref": "Mark 15:42-46",
+      "note": "Joseph of Arimathea asks Pilate for Jesus's body and lays it in a rock-cut tomb before the Sabbath."
+    },
+    {
+      "ref": "Deuteronomy 21:22-23",
+      "note": "The Jewish law that a hanged man's body must not remain overnight but be buried the same day."
+    }
+  ],
+  "outside": [
+    {
+      "source": "The heel bone of Yehohanan, Giv'at ha-Mivtar, Jerusalem",
+      "date": "1st century AD (found 1968)",
+      "note": "A family tomb held an ossuary inscribed 'Yehohanan son of Hagkol' containing a right heel bone still pierced by an iron nail, with wood attached. The nail had bent, so it could not be removed. This is physical evidence of a crucified man whose bones were collected and placed in his family's tomb.",
+      "link": "https://en.wikipedia.org/wiki/Jehohanan"
+    },
+    {
+      "source": "Josephus, Jewish War 4.317",
+      "date": "c. 75 AD",
+      "note": "Says Jews were so careful about burial that they took down even those condemned to crucifixion and buried them before sunset.",
+      "link": ""
+    }
+  ],
+  "counter": "Romans often left crucified bodies on the cross to rot or for animals, as a deterrent, and some scholars (such as John Dominic Crossan) argue Jesus was most likely not given a proper burial. Yehohanan is a single case and his circumstances are unknown; the details of how he was crucified have been re-examined and are still debated. This shows burial was possible, not that it happened to Jesus."
+}

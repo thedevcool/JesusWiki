@@ -1,0 +1,35 @@
+{
+  "claim": "Jesus had disciples, and his followers continued as a movement after his execution.",
+  "strength": "strong",
+  "bible": [
+    {
+      "ref": "Mark 3:13-19",
+      "note": "Jesus appoints twelve disciples, who are named."
+    },
+    {
+      "ref": "Acts 2:41-47",
+      "note": "The Jerusalem followers grow into a community soon after his death."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Josephus, Antiquities 18.63 to 64",
+      "date": "c. 93 AD",
+      "note": "Says that those who had loved him at first did not stop doing so, and that the 'tribe of Christians', named after him, had still not disappeared. This is part of the edited Testimonium Flavianum, but these lines are often thought to be in the original core.",
+      "link": "https://lexundria.com/j_aj/18.63-18.64/wst"
+    },
+    {
+      "source": "Tacitus, Annals 15.44",
+      "date": "c. 116 AD",
+      "note": "Says the movement was checked by Christ's execution but broke out again, spreading from Judea to Rome, where there were 'a huge crowd' of Christians by AD 64.",
+      "link": "https://en.wikipedia.org/wiki/Tacitus_on_Jesus"
+    },
+    {
+      "source": "Babylonian Talmud, Sanhedrin 43a",
+      "date": "compiled c. 500 AD; tradition probably earlier",
+      "note": "Right after the passage on Yeshu's execution, says he had five disciples, named Matthai, Nakai, Netzer, Buni and Todah, and tells of each being put to death in a series of puns on their names.",
+      "link": "https://halakhah.com/sanhedrin/sanhedrin_43.html"
+    }
+  ],
+  "counter": "Nobody seriously doubts that the movement continued, since outside writers from the 60s AD onward deal with Christians as a fact. What the sources do not explain is why it survived its leader's execution. The Talmud's five disciples are mostly wordplay, and only Matthai resembles a Gospel name."
+}

@@ -1,0 +1,33 @@
+{
+  "claim": "Herod Antipas ruled Galilee during Jesus's ministry.",
+  "strength": "strong",
+  "bible": [
+    {
+      "ref": "Luke 3:1",
+      "note": "Names Herod as tetrarch of Galilee in the fifteenth year of Tiberius."
+    },
+    {
+      "ref": "Mark 6:14-29",
+      "note": "Herod hears about Jesus and fears he is John the Baptist raised from the dead."
+    },
+    {
+      "ref": "Luke 23:6-12",
+      "note": "Pilate sends Jesus to Herod, who was in Jerusalem, because Jesus was a Galilean."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Josephus, Antiquities books 17 and 18",
+      "date": "c. 93 AD",
+      "note": "A son of Herod the Great who ruled Galilee and Perea as tetrarch, a Roman client ruler, from 4 BC until AD 39. He founded Tiberias on the Sea of Galilee around AD 20, married Herodias, and was exiled to Gaul by the emperor Caligula.",
+      "link": "https://www.livius.org/articles/person/herod-antipas/"
+    },
+    {
+      "source": "Coins of Herod Antipas",
+      "date": "c. AD 20 to 39",
+      "note": "Small bronze coins struck at Tiberias, inscribed 'of Herod the tetrarch', with plants such as palm branches and reeds rather than human images, in keeping with Jewish law. They are the earliest coins minted in Galilee.",
+      "link": "https://biblearchaeologyreport.com/2020/02/21/herod-antipas-an-archaeological-biography/"
+    }
+  ],
+  "counter": "Antipas's rule is not in doubt, so this mostly shows the Gospels have the political setting right. Mark calls him 'King Herod', a title he never held; Matthew and Luke correct it to tetrarch. His part in Jesus's trial appears only in Luke and has no outside support."
+}

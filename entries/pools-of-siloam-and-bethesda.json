@@ -1,0 +1,29 @@
+{
+  "claim": "The pools of Siloam and Bethesda in John's Gospel were real places in Jerusalem in Jesus's time.",
+  "strength": "strong",
+  "bible": [
+    {
+      "ref": "John 9:7",
+      "note": "Jesus tells a blind man to wash in the Pool of Siloam."
+    },
+    {
+      "ref": "John 5:2",
+      "note": "Describes a pool called Bethesda near the Sheep Gate, with five porticoes (covered colonnades)."
+    }
+  ],
+  "outside": [
+    {
+      "source": "Excavation of the Second Temple period Pool of Siloam",
+      "date": "found 2004; pool in use 1st century BC to AD 70",
+      "note": "Workers repairing a sewer pipe in the City of David uncovered a large stepped pool. Coins and pottery date it to the late Second Temple period, the right era for John's account. Excavation of the full pool was still going on in the 2020s.",
+      "link": "https://www.biblicalarchaeology.org/daily/biblical-sites-places/biblical-archaeology-sites/siloam-pool/"
+    },
+    {
+      "source": "Excavations at the Pools of Bethesda, near St Anne's Church",
+      "date": "excavated 19th and 20th centuries",
+      "note": "Archaeologists found two large pools separated by a central wall, with remains of colonnades. Four sides plus the dividing wall would make five porticoes, matching John's unusual detail. A later Roman healing shrine to Asclepius stood nearby.",
+      "link": "https://en.wikipedia.org/wiki/Pool_of_Bethesda"
+    }
+  ],
+  "counter": "Accurate local detail shows the writer, or his sources, knew Jerusalem before its destruction in AD 70. It does not confirm the healings described there. Some scholars question whether the colonnades existed in exactly the form John describes in Jesus's day, and many popular claims about these finds come from devotional sites rather than excavation reports."
+}
